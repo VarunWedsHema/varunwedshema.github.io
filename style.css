@@ -50,12 +50,16 @@ Template:	Wedding Bells HTML,CSS Template
 /*===============================================*/
 /* 2. GENERAL		 						 */
 /*===============================================*/	
+@font-face {
+  font-family: 'NK_Monotype Corsiva';
+  src: url('http://www.fontsaddict.com/fontface/nk-monotype-corsiva.ttf');
+}
 html, body{
 	height: 100%;
 	width: 100%;
 }
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'NK_Monotype Corsiva', 'Open Sans', sans-serif;
 	padding:0;
 	font-size:14px;
 	margin:0 auto;
